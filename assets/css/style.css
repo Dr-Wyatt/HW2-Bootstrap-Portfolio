@@ -28,3 +28,9 @@ body {
 .footer-text {
     width: 100px;
 }
+.name-textbox {
+    width: 1040px;
+}
+.submit-button {
+    background-color: #4aaaa5; 
+}
