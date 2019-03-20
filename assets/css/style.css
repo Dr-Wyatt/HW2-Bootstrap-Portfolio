@@ -1,0 +1,30 @@
+body {
+    background: url(../images/gplaypattern.png);
+}
+
+.my-header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.second-header{
+    color:#4aaaa5;
+}
+.my-name {
+    background-color: #4aaaa5; 
+    font-size: 30px;
+}
+.main-info {
+    line-height:30px; 
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.header-box {
+    border-bottom: 5px solid #ccc;
+}
+.my-footer {
+    background-color: #666666; 
+    height: 50px; 
+    border-top: 10px solid #4aaaa5;
+}
+.footer-text {
+    width: 100px;
+}
