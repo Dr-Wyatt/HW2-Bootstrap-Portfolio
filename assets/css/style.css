@@ -22,7 +22,7 @@ body {
 }
 .my-footer {
     background-color: #666666; 
-    height: 50px; 
+    height: 40px; 
     border-top: 10px solid #4aaaa5;
 }
 .footer-text {
@@ -33,4 +33,18 @@ body {
 }
 .submit-button {
     background-color: #4aaaa5; 
+}
+.card-panels {
+    width: 19rem;
+}
+.portfolio-pics{
+    width: 302px;
+}
+.card-description {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+.card-text-bg {
+    background-color: #4aaaa5; 
+    height: 20px;
 }
