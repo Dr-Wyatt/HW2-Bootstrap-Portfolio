@@ -1,93 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title> My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title> My Portfolio</title>
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top my-header" style="border-bottom: 5px solid #ccc; height: 75px;">
-          <div class="container max-width: 960px">
-                <a class="btn text-white btn-lg my-name" href="index.html">Daniel Wyatt</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_Collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse ml-auto flex-grow-0"  id="navbar_Collapse" >
-                  <ul class="nav navbar-nav ml-auto bg-white text-right">
-                    <li>
-                      <a class="nav-item nav-link h3" href="index.html">About</a>
-                    </li> 
-                    <li>
-                      <a class="nav-item nav-link h3" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                      <a class="nav-item nav-link h3" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top my-header"
+    style="border-bottom: 5px solid #ccc; height: 75px;">
+    <div class="container max-width: 960px">
+      <a class="btn text-white btn-lg my-name" href="index.html">Daniel Wyatt</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_Collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto flex-grow-0" id="navbar_Collapse">
+        <ul class="nav navbar-nav ml-auto bg-white text-right">
+          <li>
+            <a class="nav-item nav-link h3" href="index.html">About</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link h3" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link h3" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container bg-white max-width: 960px mt-4 mb-4 pb-4">
+    <div class="row">
+      <div class="col-11 mb-2 mt-1 mx-auto header-box">
+        <h2 class="my-header second-header">Portfolio</h2>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
+        <div class="card mb-2 card-panels mx-auto">
+          <img class="card-img-top portfolio-pics" src="assets/images/International_Pokémon_logo.svg.png"
+              alt="Hangman">
+          <div class="card-body card-text-bg d-flex justify-content-center">
+              <div class="btn-group align-items-center" role="group">
+                  <button class="btn btn-sm card-description text-white" type="button">
+                    Hangman
+                  </button>
+                  <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://dr-wyatt.github.io/HW3-Word-Guess-Game/" target="_blank">Deployed
+                      Page</a>
+                    <a class="dropdown-item" href="https://github.com/Dr-Wyatt/HW3-Word-Guess-Game" target="_blank">Github
+                      Repository</a>
+                  </div>
                 </div>
           </div>
-        </nav>
-        <div class="container bg-white max-width: 960px mt-4 mb-4 pb-4">
-          <div class="row">
-            <div class="col-11 mb-2 mt-1 mx-auto header-box">
-              <h2 class="my-header second-header">Portfolio</h2>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
-              <div class="card mb-2 card-panels mx-auto">
-                <a href="https://dr-wyatt.github.io/HW3-Word-Guess-Game/" target="_blank"><img class="card-img-top portfolio-pics" src="assets/images/International_Pokémon_logo.svg.png" alt="Hangman"></a>
-                <div class="card-body card-text-bg d-flex justify-content-center">
-                  <div class="card-text align-items-center d-flex card-description text-white">Hangman</div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
-              <div class="card mb-2 card-panels mx-auto">
-                <a href="https://dr-wyatt.github.io/HW4-Unit-4-Game/" target="_blank"><img class="card-img-top portfolio-pics" src="assets/images/Amethyst.png" alt="Crystal Collector"></a> 
-                <div class="card-body card-text-bg d-flex justify-content-center">
-                  <p class="card-text align-items-center d-flex card-description text-white">Crystal Collector</p>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
-              <div class="card mb-2 card-panels mx-auto">
-                <a href="https://dr-wyatt.github.io/HW5-TriviaGame/"><img class="card-img-top portfolio-pics" src="assets/images/The Office Logo.PNG" alt="Office Trivia"></a>
-                <div class="card-body card-text-bg d-flex justify-content-center">
-                  <p class="card-text align-items-center d-flex card-description text-white">Office Trivia</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
-              <div class="card mb-2 card-panels mx-auto">
-                <a href="https://dr-wyatt.github.io/HW6-GifTastic/"><img class="card-img-top portfolio-pics" src="assets/images/soccer-ball-png-19.png" alt="Soccer Team GifTastic"></a>
-                <div class="card-body card-text-bg d-flex justify-content-center">
-                  <p class="card-text align-items-center d-flex card-description text-white">Soccer Team GifTastic</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-3 mx-auto">
-              <div class="card mb-2 card-panels mx-auto">
-                <img class="card-img-top portfolio-pics" src="assets/images/Videogame1.jpg" alt="Video-Game">
-                <div class="card-body card-text-bg d-flex justify-content-center">
-                  <p class="card-text align-items-center d-flex card-description text-white">Video Game</p>
-                </div>
-              </div>
-            </div> 
-          </div>           
         </div>
-          <footer class="footer fixed-bottom p-2 my-footer">
-            <div class="container">
-                <div class="text-white mx-auto footer-text">Copyright</div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
+        <div class="card mb-2 card-panels mx-auto">
+          <img class="card-img-top portfolio-pics" src="assets/images/Amethyst.png" alt="Crystal Collector">
+          <div class="card-body card-text-bg d-flex justify-content-center">
+              <div class="btn-group align-items-center" role="group">
+                  <button class="btn btn-sm card-description text-white" type="button">
+                      Crystal Collector
+                  </button>
+                  <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://dr-wyatt.github.io/HW4-Unit-4-Game/" target="_blank">Deployed
+                      Page</a>
+                    <a class="dropdown-item" href="https://github.com/Dr-Wyatt/HW4-Unit-4-Game" target="_blank">Github
+                      Repository</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
+        <div class="card mb-2 card-panels mx-auto">
+          <img class="card-img-top portfolio-pics" src="assets/images/The Office Logo.PNG" alt="Office Trivia">
+          <div class="card-body card-text-bg d-flex justify-content-center">
+              <div class="btn-group align-items-center" role="group">
+                  <button class="btn btn-sm card-description text-white" type="button">
+                    The Office Trivia
+                  </button>
+                  <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://dr-wyatt.github.io/HW5-TriviaGame/" target="_blank">Deployed
+                      Page</a>
+                    <a class="dropdown-item" href="https://github.com/Dr-Wyatt/HW5-TriviaGame" target="_blank">Github
+                      Repository</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-3 p-0 m-auto">
+        <div class="card mb-2 card-panels mx-auto">
+          <img class="card-img-top portfolio-pics" src="assets/images/soccer-ball-png-19.png"
+            alt="Soccer Team GifTastic">
+          <div class="card-body card-text-bg d-flex justify-content-center">
+            <div class="btn-group align-items-center" role="group">
+              <button class="btn btn-sm card-description text-white" type="button">
+                Soccer Team GifTastic
+              </button>
+              <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://dr-wyatt.github.io/HW6-GifTastic/" target="_blank">Deployed
+                  Page</a>
+                <a class="dropdown-item" href="https://github.com/Dr-Wyatt/HW6-GifTastic" target="_blank">Github
+                  Repository</a>
+              </div>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-3 mx-auto">
+        <div class="card mb-2 card-panels mx-auto">
+          <img class="card-img-top portfolio-pics" src="assets/images/train.png" alt="Train-Schedule">
+          <div class="card-body card-text-bg d-flex justify-content-center">
+            <div class="btn-group align-items-center" role="group">
+              <button class="btn btn-sm card-description text-white" type="button">
+                Train Schedule
+              </button>
+              <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://dr-wyatt.github.io/HW7-Train-Schedule/" target="_blank">Deployed
+                  Page</a>
+                <a class="dropdown-item" href="https://github.com/Dr-Wyatt/HW7-Train-Schedule" target="_blank">Github
+                  Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer fixed-bottom p-2 my-footer">
+    <div class="container">
+      <div class="text-white mx-auto footer-text">Copyright</div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
