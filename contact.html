@@ -15,16 +15,35 @@
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_Collapse">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ml-auto flex-grow-0"  id="navbar_Collapse" >
+          <div class="collapse navbar-collapse ml-auto flex-grow-0" id="navbar_Collapse">
             <ul class="nav navbar-nav ml-auto bg-white text-right">
               <li>
-                <a class="nav-item nav-link h3" href="index.html">About</a>
-              </li> 
-              <li>
-                <a class="nav-item nav-link h3" href="portfolio.html">Portfolio</a>
+                <button type="button" class="btn btn-sm">
+                  <a class="nav-item nav-link h3" href="index.html">About</a>
+                </button>                      
               </li>
               <li>
-                <a class="nav-item nav-link h3" href="contact.html">Contact</a>
+                <button type="button" class="btn btn-sm">
+                  <a class="nav-item nav-link h3" href="portfolio.html">Portfolio</a>
+                </button>
+              </li>
+              <li>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm">
+                    <a class="nav-item nav-link h3" href="contact.html">Contact</a>
+                  </button>
+                  <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="mailto: daniel.ryuichi.wyatt@gmail.com">daniel.ryuichi.wyatt@gmail.com</a>
+                    <div class="dropdown-item">214-549-4597</div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://github.com/Dr-Wyatt" target="_blank">Github Profile</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/dryuichiwyatt/" target="_blank">LinkedIn Profile</a>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
